@@ -37,5 +37,5 @@ app.use(bookRouter);
 
 // Listen to `port` for API Endpoints tasks
 app.listen(port, () => {
-  console.log("Server running is up on " + port);
+  console.log("Application Server running is up on http://192.168.225.102:" + port);
 });
